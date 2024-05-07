@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+.search-icon{
+    background-color: #ccc;
+    padding: 10px;
+
+    font-size: 14px;
+}
+.mic-icon{
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-left: 25px;
+
+}
+.right-icons{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+input{
+    width: 500px;
+    height: 33.5px;
+    border: 2px solid #cccccc;
+    font-size: 16px;
+    padding: 5px;
+}
+.Tags{
+    border-top: 2px solid #c2c2c26e;
+    margin-top: 15px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.tag{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.light{
+    background-color: #dadada;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+.black{
+    background-color: #000000cb;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+/* aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.side-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.side-icon img{
+    width: 30px;
+} 
+.bars{
+    font-size: 30px;
+    margin: 0px 25px;
+    color: #000000c9;
+}*/
